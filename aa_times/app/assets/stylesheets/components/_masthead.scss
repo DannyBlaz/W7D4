@@ -23,9 +23,18 @@
 		font-size: 10px;
 		color: $dark-gray;
 	}
-
+	
 	ul {
 		display: flex;
+	}
+	
+	li:first-child {
+
+		font-weight: bold;
+		a{
+			color: black;
+		}
+		// color: #000;
 	}
 }
 
@@ -40,12 +49,17 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-
+	
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
 	}
-
+	li:first-child, li:last-child{
+		color:#333;
+	}
+	li:last-child{
+		border-right: 0px solid white;
+	}
 	button {
 		background: none;
 		padding: 0px;
@@ -58,12 +72,18 @@
 		background-color: $lightest-gray;
 	}
 
+	a:hover {
+		text-decoration: underline;
+	}
 	a,
 	button, 
 	time {
 		margin-right: 10px;
-	}
 
+	}
+	// time, button {
+	// 	color: $dark-gray;
+	// }
 	i {
 		margin-right: 5px;
 	}
