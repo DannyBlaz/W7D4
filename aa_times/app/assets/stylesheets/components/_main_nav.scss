@@ -1,35 +1,46 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  border-bottom: 1.5px solid $light-gray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  // align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .left-nav {
-
+  
   > ul {
     > li {
-
+      margin-left: 10px;
     }
   }
-
+  
   span {
-
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 11px;
+    font-family: $sans-serif;
+    
   }
 }
 
 .right-nav  {
-
+  // float: right;
   > ul {
 
     > li {
-  
+      margin-left: 10px;
     }
 
     > li:last-of-type {
-  
+      font-size: 18px;
     }
   }
   
@@ -40,5 +51,5 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $lightest-gray;
 }

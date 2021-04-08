@@ -15,7 +15,7 @@ body {
 button {
 	background-color: $light-blue;
 	border-color: $dark-blue;
-	color: $lightest-gray;
+	color: #fff;
 	font-weight: 700;
 	padding: 7px 9px;
 	border-radius: 3px;
@@ -27,8 +27,8 @@ button {
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $blue;
+	border-color: $darkest-blue
 }
 
 /*
