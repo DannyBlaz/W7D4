@@ -39,13 +39,28 @@
       margin-left: 10px;
     }
 
-    > li:last-of-type {
-      font-size: 18px;
-    }
+    // > li:last-of-type {
+    //   font-size: 16px;
+    //   position: relative;
+    // }
+    // > li:last-of-type:hover {
+    //   cursor: pointer;
+    //   display:block;
+    // }
+  }
+
+  
+  #settings-btn {
+    font-size: 16px;
+    position: relative;
+  }
+  #settings-btn:hover {
+    cursor: pointer;
+    display:block;
   }
   
   i {
-
+    
   }
 }
 
