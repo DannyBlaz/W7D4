@@ -4,6 +4,7 @@
   padding: 5px;
   align-items: center;
   border-bottom: 1.5px solid $light-gray;
+  padding-bottom: 12px;
 }
 
 .left-nav > ul,
@@ -68,4 +69,10 @@
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
   background-color: $lightest-gray;
+}
+
+@media all and (max-width: 800px) {
+  #subscribe-btn, #log-in-btn{
+    display: none;
+  }
 }

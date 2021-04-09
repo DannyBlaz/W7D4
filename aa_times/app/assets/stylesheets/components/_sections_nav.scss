@@ -24,3 +24,9 @@
 	}
 
 }
+
+@media all and (max-width: 580px) {
+  .sections{
+	  display: none;
+  }
+}
