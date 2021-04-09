@@ -1,7 +1,7 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 5px;
   align-items: center;
   border-bottom: 1.5px solid $light-gray;
 }
@@ -36,7 +36,7 @@
   > ul {
 
     > li {
-      margin-left: 10px;
+      margin-left: 5px;
     }
 
     // > li:last-of-type {
@@ -53,6 +53,7 @@
   #settings-btn {
     font-size: 16px;
     position: relative;
+    padding: 5px 5px 5px 5px;
   }
   #settings-btn:hover {
     cursor: pointer;
